@@ -1,0 +1,22 @@
+{
+    "name": "Ubuntu",
+    "image": "mcr.microsoft.com/devcontainers/base:jammy",
+    "features": {
+        "ghcr.io/devcontainers/features/node:1": {
+            "version": "lts",
+            "pnpmVersion": "latest",
+            "nvmVersion": "latest"
+        },
+        "ghcr.io/warrenbuckley/codespace-features/sqlite:1": {},
+        "ghcr.io/devcontainers-extra/features/poetry:2": {
+            "version": "latest"
+        },
+        "ghcr.io/devcontainers/features/python:1": {
+            "installTools": true,
+            "version": "3.12"
+        },
+        "ghcr.io/marcozac/devcontainer-features/buf:1": {
+            "version": "latest"
+        }
+    }
+}

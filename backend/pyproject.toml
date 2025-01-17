@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "backend"
+version = "1.0.0"
+description = ""
+authors = ["ryone9re <ryoichi.kurimoto@gmail.com>"]
+readme = "README.md"
+package-mode = false
+packages = [{ include = "*", from = "src" }]
+
+[tool.poetry.dependencies]
+python = "^3.12"
+grpcio = "^1.69.0"
+grpcio-tools = "^1.69.0"
+grpcio-reflection = "^1.69.0"
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
