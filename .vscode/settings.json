@@ -1,0 +1,29 @@
+{
+    "[python]": {
+        "editor.formatOnType": true,
+        "editor.codeActionsOnSave": {
+            "source.organizeImports.ruff": "always",
+            "source.fixAll.ruff": "always"
+        },
+        "editor.defaultFormatter": "ms-python.autopep8",
+    },
+    "[typescript]": {
+        "editor.formatOnSave": true,
+        "editor.defaultFormatter": "biomejs.biome"
+    },
+    "[typescriptreact]": {
+        "editor.formatOnSave": true,
+        "editor.defaultFormatter": "biomejs.biome"
+    },
+    "python.defaultInterpreterPath": "/usr/local/python/current/bin/python",
+    "python.poetryPath": "poetry",
+    "python.analysis.autoImportCompletions": true,
+    "python.analysis.completeFunctionParens": true,
+    "python.testing.pytestArgs": [
+        "tests/"
+    ],
+    "python.testing.pytestEnabled": true,
+    "python.analysis.extraPaths": [
+        "./backend/src/helloworld_pb2_"
+    ]
+}

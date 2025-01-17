@@ -60,7 +60,6 @@ out/
 
 # IDEs and editors
 .idea/
-.vscode/
 *.swp
 *.swo
 *~
